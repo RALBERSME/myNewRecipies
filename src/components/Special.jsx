@@ -6,8 +6,8 @@ const Special = () => {
   return (
     <>
       <Routes>
-        <Route path="/myNewRecipe" element={<SpecialMeal />} />
-        <Route path="/myNewRecipe:MealId" element={<Recipe />} />
+        <Route path="/myNewRecipies" element={<SpecialMeal />} />
+        <Route path="/myNewRecipies:MealId" element={<Recipe />} />
       </Routes>
     </>
   );

@@ -25,7 +25,7 @@ const Recipe = () => {
               id="close"
               href="#"
               onClick={() => {
-                navigate(`/`);
+                navigate(`/myNewRecipies`);
               }}
             >
               click here to close open recipe
@@ -134,7 +134,7 @@ const Recipe = () => {
               <a
                 href="#"
                 onClick={() => {
-                  navigate(`/`);
+                  navigate(`/myNewRecipies`);
                 }}
               >
                 back to special meal page{" "}

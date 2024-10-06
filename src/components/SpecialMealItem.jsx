@@ -13,7 +13,7 @@ const SpecialMealItem = ({ data }) => {
                 className="mealCard"
                 key={item.idMeal}
                 onClick={() => {
-                  navigate(`/${item.idMeal}`);
+                  navigate(`/myNewRecipies${item.idMeal}`);
                 }}
               >
                 <img id="specialImg" src={item.strMealThumb} alt="" />
